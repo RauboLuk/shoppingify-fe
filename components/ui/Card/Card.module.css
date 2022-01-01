@@ -1,0 +1,10 @@
+.root {
+  background: #ffffff;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.itemCard {
+  min-height: 50px;
+  min-width: 140px;
+}
