@@ -4,11 +4,11 @@
   border-radius: 12px;
   min-height: 50px;
   min-width: 140px;
-}
-
-.itemCard {
+  
   display: grid;
   grid-template-columns: 5fr 1fr;
   width: 140px;
   padding: 0 16px;
+
+  border: none;
 }
