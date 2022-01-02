@@ -14,3 +14,17 @@ a {
 * {
   box-sizing: border-box;
 }
+
+button {
+  all: unset;
+  cursor: pointer;
+}
+
+button:focus,
+button:active {
+  outline: 1px solid #F9A109;
+}
+
+button:focus:active {
+  outline: 2px solid black;
+}
