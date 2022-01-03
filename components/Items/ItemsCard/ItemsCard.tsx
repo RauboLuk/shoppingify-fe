@@ -8,7 +8,7 @@ export interface CardProps extends HTMLAttributes<HTMLDivElement> {
 const ItemsCard: React.FC<CardProps> = ({ children, className }) => {
   return (
     <button className={`${s.root} ${className ?? ""}`}>
-      <p>{children}</p>
+      <p className={s.text}>{children}</p>
       <div>+</div>
     </button>
   );

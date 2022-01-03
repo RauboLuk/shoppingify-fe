@@ -29,12 +29,20 @@ const Main: NextPage = () => {
             <h2>Documentation &rarr;</h2>
             <p>Find in-depth information about Next.js features and API.</p>
           </a>
-
-          <ItemsCard>Acocado</ItemsCard>
-          <ItemsCard>Banana</ItemsCard>
-          <ItemsCard>Pre-cooked corn 450g</ItemsCard>
-          <ItemsCard>Mandarin Nadorcott</ItemsCard>
         </div>
+
+        <section>
+          <header>
+            <h2>Fruit and vegetables</h2>
+          </header>
+
+          <section className={styles.cards}>
+            <ItemsCard>Acocado</ItemsCard>
+            <ItemsCard>Banana</ItemsCard>
+            <ItemsCard>Pre-cooked corn 450g</ItemsCard>
+            <ItemsCard>Mandarin Nadorcott</ItemsCard>
+          </section>
+        </section>
       </main>
 
       <footer className={styles.footer}>
