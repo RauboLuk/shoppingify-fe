@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
 html,
 body {
   padding: 0;
@@ -22,7 +24,7 @@ button {
 
 button:focus,
 button:active {
-  outline: 1px solid #F9A109;
+  outline: 1px solid #f9a109;
 }
 
 button:focus:active {
