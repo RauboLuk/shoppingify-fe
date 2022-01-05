@@ -1,11 +1,11 @@
 import React, { HTMLAttributes } from "react";
-import s from "./ItemsCard.module.css";
+import s from "./ItemCard.module.css";
 
 export interface CardProps extends HTMLAttributes<HTMLDivElement> {
   children: string; // | JSX.Element;
 }
 
-const ItemsCard: React.FC<CardProps> = ({ children, className }) => {
+const ItemCard: React.FC<CardProps> = ({ children, className }) => {
   return (
     <button className={`${s.root} ${className ?? ""}`}>
       <p className={s.text}>{children}</p>
@@ -27,4 +27,4 @@ const ItemsCard: React.FC<CardProps> = ({ children, className }) => {
   );
 };
 
-export default ItemsCard;
+export default ItemCard;

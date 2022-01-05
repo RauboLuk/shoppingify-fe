@@ -13,7 +13,7 @@
 }
 
 .text {
-  font-family: Quicksand;
+  font-family: "Quicksand", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -23,5 +23,5 @@
 
 .add {
   margin-top: 16.46px;
-  color: #C1C1C4;
+  color: #c1c1c4;
 }
