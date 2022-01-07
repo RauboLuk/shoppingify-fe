@@ -1,8 +1,8 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import ItemsCard from "../components/Items/ItemsCard";
-import Card, { ItemCard } from "../components/ui/Card/Card";
+import CategorySection from "../components/Items/CategorySection";
+import ItemCard from "../components/Items/ItemCard";
 import styles from "../styles/Home.module.css";
 
 const Main: NextPage = () => {
@@ -19,28 +19,22 @@ const Main: NextPage = () => {
           Welcome to <a href="https://nextjs.org">Next.js!</a>
         </h1>
 
-        <p className={styles.description}>
-          Get started by editing{" "}
-          <code className={styles.code}>pages/index.tsx</code>
-        </p>
-
-        <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-        </div>
-
         <section>
           <header>
             <h2>Fruit and vegetables</h2>
           </header>
 
+          <CategorySection
+            title="Meat and Fish"
+            items={["Chicken leg box", "Chicken 1kg"]}
+          />
+
           <section className={styles.cards}>
-            <ItemsCard>Acocado</ItemsCard>
-            <ItemsCard>Banana</ItemsCard>
-            <ItemsCard>Pre-cooked corn 450g</ItemsCard>
-            <ItemsCard>Mandarin Nadorcott</ItemsCard>
+            <ItemCard>Acocado</ItemCard>
+            <ItemCard>Banana</ItemCard>
+            <ItemCard>Pre-cooked corn 450g</ItemCard>
+            <ItemCard>Mandarin Nadorcott</ItemCard>
+            <ItemCard>Mandarin Nadorcott</ItemCard>
           </section>
         </section>
       </main>

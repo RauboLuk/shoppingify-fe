@@ -1,0 +1,9 @@
+.root {
+}
+
+.items {
+  margin-top: 18px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8.57px;
+}
