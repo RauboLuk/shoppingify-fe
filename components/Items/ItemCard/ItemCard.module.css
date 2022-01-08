@@ -1,5 +1,4 @@
 .root {
-  box-sizing: border-box;
   background: #ffffff;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.05);
   border-radius: 12px;
@@ -13,12 +12,8 @@
 }
 
 .text {
-  font-family: "Quicksand", sans-serif;
-  font-style: normal;
-  font-weight: 500;
   font-size: 14px;
   line-height: 17px;
-  color: #000000;
 }
 
 .add {

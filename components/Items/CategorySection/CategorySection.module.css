@@ -1,6 +1,11 @@
 .root {
 }
 
+.title {
+  font-size: 18px;
+  line-height: 22px;
+}
+
 .items {
   margin-top: 18px;
   display: flex;

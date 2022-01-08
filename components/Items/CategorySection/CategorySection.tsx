@@ -15,7 +15,7 @@ const CategorySection: React.FC<CategorySectionProps> = ({
   return (
     <section className={`${s.root} ${className ?? ""}`}>
       <header>
-        <h3>{title}</h3>
+        <h3 className={s.title}>{title}</h3>
       </header>
       <section className={s.items}>
         {items.map((item) => (
