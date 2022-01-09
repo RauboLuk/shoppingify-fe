@@ -10,5 +10,6 @@
   margin-top: 18px;
   display: flex;
   flex-wrap: wrap;
-  gap: 8.57px;
+  column-gap: 8.57px;
+  row-gap: 24px;
 }

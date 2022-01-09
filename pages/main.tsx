@@ -29,6 +29,18 @@ const Main: NextPage = () => {
             items={["Chicken leg box", "Chicken 1kg"]}
           />
 
+          <CategorySection
+            title="Fruit and vegetables"
+            items={[
+              "Acocado",
+              "Banana",
+              "Pre-cooked corn 450g",
+              "Mandarin Nadorcott",
+              "Acocado",
+              "Banana",
+            ]}
+          />
+
           <section className={styles.cards}>
             <ItemCard>Acocado</ItemCard>
             <ItemCard>Banana</ItemCard>
