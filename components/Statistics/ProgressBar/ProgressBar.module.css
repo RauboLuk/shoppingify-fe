@@ -1,0 +1,21 @@
+.root {
+  width: 277.87px;
+  height: 6px;
+
+  background: #e0e0e0;
+  border-radius: 4px;
+
+  position: relative;
+}
+
+.progress {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 66.94px;
+  height: 6px;
+
+  background: #f9a109;
+  border-radius: 4px;
+}

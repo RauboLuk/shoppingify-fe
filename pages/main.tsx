@@ -2,6 +2,7 @@ import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
 import CategorySection from "../components/Items/CategorySection";
+import ProgressBar from "../components/Statistics/ProgressBar";
 import s from "../styles/Home.module.css";
 
 const Main: NextPage = () => {
@@ -23,6 +24,8 @@ const Main: NextPage = () => {
             title="Meat and Fish"
             items={["Chicken leg box", "Chicken 1kg"]}
           />
+
+          <ProgressBar progress={20} />
 
           <CategorySection
             title="Fruit and vegetables"
