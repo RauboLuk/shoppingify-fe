@@ -1,11 +1,10 @@
 .root {
+  position: relative;
   width: 277.87px;
   height: 6px;
 
   background: #e0e0e0;
   border-radius: 4px;
-
-  position: relative;
 }
 
 .progress {
