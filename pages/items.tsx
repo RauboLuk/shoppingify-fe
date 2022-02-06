@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Image from "next/image";
-import CategorySection from "../components/Items/CategorySection";
-import ProgressBar from "../components/Statistics/ProgressBar";
-import s from "../styles/Home.module.css";
+import CategorySection from "@/components/Items/CategorySection";
+import ProgressBar from "@/components/Statistics/ProgressBar";
+import s from "@/styles/Home.module.css";
 
 const Main: NextPage = () => {
   return (
