@@ -15,8 +15,9 @@ const Main: NextPage = () => {
       </Head>
 
       <main className={s.main}>
-        <h1 className={s.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
+        <h1>
+          <span className={s.orangeText}>Shoppingify</span> allows you take your
+          shopping list wherever you go
         </h1>
 
         <section className={s.content}>
