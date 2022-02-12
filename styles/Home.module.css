@@ -62,3 +62,8 @@
   height: 1em;
   margin-left: 0.5rem;
 }
+
+.textContainer {
+  display: flex;
+  justify-content: space-between;
+}
