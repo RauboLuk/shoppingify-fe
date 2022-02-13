@@ -15,11 +15,30 @@ const Main: NextPage = () => {
       <main className={s.main}>
         <section className={s.content}>
           <div>
-            <div className={s.textContainer}>
-              <p>Banana</p>
-              <p>12%</p>
+            <h3>Top items</h3>
+            <div className={s.stats}>
+              <div className={s.statItem}>
+                <div className={s.textContainer}>
+                  <p>Banana</p>
+                  <p>12%</p>
+                </div>
+                <ProgressBar progress={20} />
+              </div>
+              <div className={s.statItem}>
+                <div className={s.textContainer}>
+                  <p>Rice</p>
+                  <p>10%</p>
+                </div>
+                <ProgressBar progress={20} />
+              </div>
+              <div className={s.statItem}>
+                <div className={s.textContainer}>
+                  <p>Chicken 1kg</p>
+                  <p>8%</p>
+                </div>
+                <ProgressBar progress={20} />
+              </div>
             </div>
-            <ProgressBar progress={20} />
           </div>
         </section>
       </main>

@@ -63,6 +63,19 @@
   margin-left: 0.5rem;
 }
 
+.stats {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 .textContainer {
   display: flex;
   justify-content: space-between;
